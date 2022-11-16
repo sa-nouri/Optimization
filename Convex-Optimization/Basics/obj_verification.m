@@ -1,4 +1,5 @@
-%%
+%% Simple Objective Functions
+
 close all; clear; clc;
 
 %% x1 + x2

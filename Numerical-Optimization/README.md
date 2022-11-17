@@ -1,5 +1,6 @@
 ## Numerical Optimization
 
+Numerical optimization is defined as minimizing/maximizing an evaluation measure what is called “objective function” with several design constrains.
 
 #### Gradient Based Methods
 

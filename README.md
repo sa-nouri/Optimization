@@ -9,5 +9,5 @@ This repository is mainly about my implementations in various subjects of the ma
 
 ### Numerical Optimization
 
-- [Numerical Opt](./Numerical-Optimization/): This folder contains the implementations about numerical optimization methods, most of which are based on the algorithms of the Numerical Optimization text-book by by Jorge Nocedal and Stephen J. Wright. Besides, it contains some recent optimization papers' implementations. Further information is avilable on [CVX OPT Readme](./Convex-Optimization/README.md).
+- [Numerical Opt](./Numerical-Optimization/): This folder contains the implementations about numerical optimization methods, most of which are based on the algorithms of the Numerical Optimization text-book by by Jorge Nocedal and Stephen J. Wright. Besides, it contains some recent optimization papers' implementations. Further information is avilable on [CVX OPT Readme](./Numerical-Optimization/README.md).
 

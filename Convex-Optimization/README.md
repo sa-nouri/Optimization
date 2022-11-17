@@ -104,3 +104,15 @@ This portfolio maximizes the expected return, subject to the probability of a lo
 
 - [Bicycle Optimal Trajectory](./CVX-Opt-Exercises/opt_trajectory.m): It is about finding the optimal trajectory of the bicycle in different constraints.
 
+#### Projects
+
+- [Linear Modeling Robustness](./Projects/linear_modeling.m): In this simulation, we investigate the choice of losses in a problem of fitting a linear predictor to given data. We consider three losses, each giving different robustness properties: the squared error, the absolute error, and the normalized error. 
+The data for this problem is available in [Robustness Linear Model Data](./Projects/robust_linear_models_data.m). There are two data matrices X and two target vectors y in the file, Xstd, Xoutliers, ystd, and youtliers. The pair Xstd, ystd corresponds to data generated via the well-specified model (1), with w a mean-zero vector. The matrix Xoutliers has its first 10 rows corrupted by large noise, and similarly, the vector youtliers has its first 10 entries corrupted.
+
+- [Kenrnel SVM](./Projects/kernel_svm.m): Using the kernel K(x,z) = (1+xTz)^6 and objective f(t) = max{0, 1−t}, the file is the implementation of the dual problem of kernel support vector machine for the problem data in [Kernel SVM DATA](./Projects/kernel_svm_data.m).
+
+- [Robust powerline provisioning](./Projects/powerline_provising.m): We wish to attach powerlines to minimize the cost of provisioning the lines while protecting against plant failures. We represent these lines as a bipartite graph between the m plants and n destination nodes. Then, it is unrealistic to assume that all powerstations and powerlines will remain up, so you would like to build robustness into your system. We would like to guarantee m − k reliability: the system will provide the desired level of power uj at each destination node even if k of the power plants fail. Using the [Robust Power Data](./Projects/robust_power_data.m), the file is the implementation of this problem in CVX.
+
+- [Dodging Yogi Bear](./Projects/find_actions.m): A human and a bear (Yogi) begin at specific positions. The bear wanders aimlessly, but if we and the bear get too close, it will steal our picnic basket and eat it; we wish to avoid this outcome (at least with high probability). Our goal is to move to a safe position while avoiding the bear. Using the file [Boo Boo Data](./Projects/hey_hey_booboo_data.m), we want to implement our solution to the optimizatin problem.
+
+- [Matrix Sensing](./Projects/matrix_sensing.m): In the matrix sensing problem, the observations come from in a particular form. This is an instance of a composite optimization problem, which we can (approximately) minimize by sequentially minimizing convex approximations. Using the data in the file [Matrix Data](./Projects/matrix_sco_data.m), which defines a U matrix, V matrix, and b vector, the goal is to implement the dual form of the problem.. Have the  procedure iterate until the change between iterations satisfies a constraint.

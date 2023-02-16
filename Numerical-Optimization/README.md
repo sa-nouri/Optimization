@@ -6,6 +6,8 @@ Numerical optimization is defined as minimizing/maximizing an evaluation measure
 
 - [Gradinet Descent & Newton's method](GD_NM.py): Minimize the Rosenbrock function with steepest descent and Newton methods while using backtracking line search. Make comparison between the results.
 
+- [Newton's method & gradient Descet](./newton_gd.ipynb): It is similar version of implementing the newton method as well as gradient descent method for different objective functions.
+
 - [Simulated Annealing](./simulated_annealing.py): It is the Simulated Annealing implementation, which is a stochastic global search optimization algorithm. This means that it makes use of randomness as part of the search process. This makes the algorithm appropriate for nonlinear objective functions where other local search algorithms do not operate well.
 
 #### Conjugate Gradient Methods

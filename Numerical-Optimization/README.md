@@ -33,3 +33,7 @@ Interior point methods are a type of algorithm that are used in solving both lin
 #### Inexact Augmented Lagrangian Framework
 
 - [iALM](./iALM/iALM.py): It is the implementation of inexact augmented Lagrangian method (iALM) for nonconvex problems with nonlinear constraints. It characterizes the total computational complexity of the method subject to a verifiable geometric condition, which is closely related to the Polyak-Lojasiewicz and Mangasarian-Fromovitz conditions. The paper of this implementation is available on [NIPS 2019 - iALM](https://proceedings.neurips.cc/paper/2019/file/866c7ee013c58f01fa153a8d32c9ed57-Paper.pdf)
+
+#### Heuristic Algorithms
+
+- [Genetic Algorithm](./genetic_alg.ipynb): It is the implementation of genetic algorithm search method for continuous function optimization.

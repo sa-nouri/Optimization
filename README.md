@@ -9,5 +9,9 @@ This repository is mainly about my implementations in various subjects of the ma
 
 ### Numerical Optimization
 
-- [Numerical Opt](./Numerical-Optimization/): This folder contains the implementations about numerical optimization methods, most of which are based on the algorithms of the Numerical Optimization text-book by by Jorge Nocedal and J. Wright. Besides, it contains some recent optimization papers' implementations. Further information is avilable on [CVX OPT Readme](./Numerical-Optimization/README.md).
+- [Numerical Opt](./Numerical-Optimization/): This folder contains the implementations about numerical optimization methods, most of which are based on the algorithms of the Numerical Optimization text-book by by Jorge Nocedal and J. Wright. Besides, it also contains some recent optimization papers' implementations. Further information is avilable on [CVX OPT Readme](./Numerical-Optimization/README.md).
 
+
+### Game Theory
+
+- [Game Theory](./Game-Theory/): This folder contains the implementations about game theory approaches in various problems. Further information is available of [Game Theory Readme](./Game-Theory/README.md).

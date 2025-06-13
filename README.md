@@ -1,19 +1,69 @@
-# Optimization
+# Optimization and Game Theory Projects
 
-Optimization, also known as mathematical programming, is a collection of mathematical principles and methods used for solving quantitative problems in various disciplines, including physics, biology, engineering, economics, and business. This field emerged from the realization that quantitative problems in seemingly different domains share common mathematical elements. Consequently, many problems can be effectively formulated and solved using the unified set of ideas and methods that comprise the realm of optimization.
+This repository contains implementations and simulations for various projects in optimization, game theory, and system identification. The projects are organized into three main categories, each focusing on different aspects of mathematical optimization and its applications.
 
-This repository is dedicated to showcasing my implementations across various branches of mathematical optimization.
+## Repository Structure
+
+```
+.
+├── Convex-Optimization/     # Convex optimization implementations
+├── Numerical-Optimization/  # Numerical optimization methods
+├── Game-Theory/            # Game theory applications
+├── requirements.txt        # Project dependencies
+└── LICENSE                 # MIT License
+```
+
+## Project Categories
 
 ### Convex Optimization
+The Convex Optimization section contains implementations based on the Convex Optimization textbook by Stephen P. Boyd. This includes:
+- Basic convex optimization problems
+- Approximation methods
+- Numerical optimization techniques
+- Fitting problems
+- Various exercises and projects
 
-- **[CVX Opt](./Convex-Optimization/)**: This section contains implementations related to convex optimization problems. Most of these implementations are based on exercises from the Convex Optimization textbook by Stephen P. Boyd. For in-depth information, please refer to the [CVX OPT Readme](./Convex-Optimization/README.md).
+For detailed information, see the [Convex Optimization README](./Convex-Optimization/README.md).
 
 ### Numerical Optimization
+This section implements various numerical optimization methods, primarily based on the Numerical Optimization textbook by Jorge Nocedal and J. Wright. Features include:
+- Gradient descent methods
+- Newton's method
+- Conjugate gradient methods
+- Levenberg-Marquardt algorithm
+- Simulated annealing
+- Genetic algorithms
+- Interior point methods
 
-- **[Numerical Opt](./Numerical-Optimization/)**: Here, you'll find implementations of numerical optimization methods, with many of them based on algorithms outlined in the Numerical Optimization textbook by Jorge Nocedal and J. Wright. Additionally, this section includes implementations of recent optimization papers. Explore further in the [Numerical Optimization Readme](./Numerical-Optimization/README.md).
+For more details, see the [Numerical Optimization README](./Numerical-Optimization/README.md).
 
 ### Game Theory
+The Game Theory section contains implementations of various game theory concepts and their applications, including:
+- Nash equilibrium finding
+- Strategic game analysis
+- Various game theory problems and solutions
 
-- **[Game Theory](./Game-Theory/)**: In this section, you can explore implementations related to game theory approaches applied to various problems. Gain deeper insights by referring to the [Game Theory Readme](./Game-Theory/README.md).
+For more information, see the [Game Theory README](./Game-Theory/README.md).
 
-By exploring these sections, you'll delve into a world of mathematical optimization, gaining practical experience in solving complex problems across different domains. If you're interested in specific algorithms or have questions related to any of these topics, please feel free to reach out for further information or assistance.
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/Optimization.git
+   cd Optimization
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Explore the different sections based on your interests.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
